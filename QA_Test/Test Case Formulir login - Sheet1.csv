@@ -1,0 +1,28 @@
+,,,,
+,,,,
+Screen Name,Formulir Login,,,
+Creator,Danilson Daka Todawatu,,,
+Created date,30-Jan-2025,,,
+,,,,
+TC_ID,Deskripsi,Prasyarat,Langkah Uji,Hasil Yang Diharapkan
+TC_01,Menguji login dengan username dan password yang valid,Pengguna Memiliki akun yang sudah terdaftar,1. Buka halaman login,Sistem berhasil login dan mengarahkan ke halaman utama/dashboard
+,,,2. Masukkan username yang benar,
+,,,3. Masukkan password yang benar,
+,,,4. Klik tombol Login,
+TC_02,Menguji login dengan username yang salah,Pengguna sudah memiliki akun terdaftar,1. Buka halaman login,"Sistem menampilkan pesan error seperti ""Username atau password salah"" dan tidak mengizinkan login"
+,,,2. Masukkan username yang salah,
+,,,3. Masukkan password yang benar,
+,,,4. Klik tombol Login,
+TC_03,"Menguji login dengan password yang salah
+","Pengguna sudah memiliki akun terdaftar
+",1. Buka halaman login,"Sistem menampilkan pesan error seperti ""Username atau password salah"" dan tidak mengizinkan login"
+,,,2. Masukkan username yang benar,
+,,,3. Masukkan password yang salah,
+,,,4. Klik tombol Login,
+TC_04,"Menguji login dengan formulir kosong (tanpa mengisi username dan password)
+","Tidak ada input yang dimasukkan
+",1. Buka halaman login,"Sistem menampilkan pesan error seperti ""Username dan password harus diisi"" dan tidak mengizinkan login"
+,,,2. Biarkan kolom username kosong,
+,,,"3. Biarkan kolom password kosong
+",
+,,,4. Klik tombol Login,
